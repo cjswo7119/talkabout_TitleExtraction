@@ -10,8 +10,8 @@ import pandas as pd
 from gensim.models.word2vec import Word2Vec
 
 ##mySql 접속 설정
-conn = pymysql.connect(host='54.180.159.44', user='sundo', password='412e11ee!', db='talkabout_db', charset='utf8')
-##conn = pymysql.connect(host='localhost', user='root', password='1234', db='talkabout_db', charset='utf8')
+
+conn = pymysql.connect(host='localhost', user='root', password='1234', db='talkabout_db', charset='utf8')
 ##수집날짜
 today = date.today()
 tomorrow = date.today() + timedelta(1)
